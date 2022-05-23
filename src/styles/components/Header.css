@@ -1,0 +1,20 @@
+.Header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Header__logo {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.Header__cart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.Header__cart a {
+  color: #47cfac;
+}
